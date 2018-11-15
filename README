@@ -1,0 +1,15 @@
+rocsim_plot is a python program that models rocket ascension for a rocket with a specified diameter and weight with a specified engine.  Thrust curves for the engines supported are in excel files in the engines directory.  Empty engine masses are in the motor_mass.dat file and engine propellant masses are in the propellant_mass.dat file.  All supported engines are currently either Estes or Aerotech.
+
+A fairly good number of external Python modules are needed for this program to run.  These are:
+
+subprocess
+plotly
+plotly.plotly
+plotly.graph.obje
+pandas
+numpy
+decimal
+math
+ast
+
+
